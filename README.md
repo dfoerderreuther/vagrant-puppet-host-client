@@ -15,7 +15,7 @@ vagrant up
 	class test {
 	        file { '/opt/test.txt':
 	                owner => root, group => root, mode => 0555, 
-	                content => 'Hallo Welt', 
+	                content => 'Test', 
 	        }
 	}
 	

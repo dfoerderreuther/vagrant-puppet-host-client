@@ -5,7 +5,7 @@ Vagrant configuration for running a puppet host and client
 
 ## Start VMs
 
-vagrant up
+	vagrant up
 
 ## Create client configuration on host
 

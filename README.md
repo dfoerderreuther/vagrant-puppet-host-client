@@ -9,8 +9,8 @@ vagrant up
 
 ## Create client configuration on host
 
-vagrant ssh puppet
-sudo vi /etc/puppet/manifests/init.pp
+	vagrant ssh puppet
+	sudo vi /etc/puppet/manifests/init.pp
 
 	class test {
 	        file { '/opt/test.txt':
@@ -25,5 +25,5 @@ sudo vi /etc/puppet/manifests/init.pp
 
 ## Apply client configuration from client
 
-vagrant ssh puppetagent
-sudo agent --no-daemonize --onetime --verbose
+	vagrant ssh puppetagent
+	sudo agent --no-daemonize --onetime --verbose
